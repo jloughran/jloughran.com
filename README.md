@@ -3,5 +3,4 @@
 
 ### TODO:
 - fix the mobile layout issue
-- actually add pages for the links
 
