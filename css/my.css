@@ -25,11 +25,27 @@
 }
 
 .home-menu {
-  top: 20px;
+  display: inline-block;
+  margin: auto;
 }
 
 .home-menu-item {
   font-size: 25px;
-  border-bottom: 3px solid #222;
+  text-align: center;
+}
+
+a.home-menu-link {
+  float: left;
+  text-decoration: none;
+  color: #222;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a.home-menu-link:hover {
+  border-bottom: 4px solid #222;
+  transition: border 0.3s ease;
 }
 
