@@ -49,3 +49,12 @@ a.home-menu-link:hover {
   transition: border 0.3s ease;
 }
 
+a.menu-active {
+  border-bottom: 4px solid #222;
+}
+
+.page-header {
+  height: 180px;
+  margin-top: 0px;
+}
+

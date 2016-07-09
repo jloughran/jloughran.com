@@ -3,28 +3,9 @@ layout: home
 title: Jack Loughran's Personal Website
 ---
 
-<div class="col-xs-12 text-center">
-  <!-- BETA: Menu -->
-  <div class="home-menu">
-  <ul class="list-inline">
-    <a href="/about/" class="home-menu-link">
-      <li class="home-menu-item">About</li>
-    </a>
-    <a href="/projects/" class="home-menu-link">
-      <li class="home-menu-item">Projects</li>
-    </a>
-    <a href="/contact/" class="home-menu-link">
-      <li class="home-menu-item">Contact</li>
-    </a>
-  </ul>
-  </div>
-</div>
+{% include menu-links.html %}
 
-<div class="text-center col-xs-12 home-text">
-  <h1 class="home-title">Jack Loughran</h1>
-  <h3 class="home-subtitle">jLoughran</h3>
-  <a href="https://github.com/jloughran" class="github-link">
-    <i class="fa fa-github fa-3x" aria-hidden="true"></i>
-    </a>
+<div class="home-text">
+  {% include home-text.html %}
 </div>
 

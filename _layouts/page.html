@@ -1,14 +1,12 @@
----
-layout: default
----
-<article class="post">
+<!DOCTYPE html>
+<html>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  <div class="container">
+  {% include head.html %}
 
-  <div class="post-content">
-    {{ content }}
+  {% include header.html %}
+
+  {{ content }}
   </div>
 
-</article>
+</html>
