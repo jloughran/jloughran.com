@@ -2,13 +2,13 @@
   <!-- BETA: Menu -->
   <div class="home-menu">
   <ul class="list-inline">
-    <a href="/about/" class="home-menu-link {% if page.title == 'About' %}menu-active{% endif %}">
+    <a href="/about/" class="home-menu-link {% if page.title == 'About' %}menu-active{% else %}menu-inactive{% endif %}">
       <li class="home-menu-item">About</li>
     </a>
-    <a href="/projects/" class="home-menu-link {% if page.title == 'Projects' %}menu-active{% endif %}">
+    <a href="/projects/" class="home-menu-link {% if page.title == 'Projects' %}menu-active{% else %}menu-inactive{% endif %}">
       <li class="home-menu-item">Projects</li>
     </a>
-    <a href="/contact/" class="home-menu-link {% if page.title == 'Contact' %}menu-active{% endif %}">
+    <a href="/contact/" class="home-menu-link {% if page.title == 'Contact' %}menu-active{% else %}menu-inactive{% endif %}">
       <li class="home-menu-item">Contact</li>
     </a>
   </ul>
