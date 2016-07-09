@@ -1,3 +1,17 @@
+.home-text {
+  /* verticaly centers the div */
+  /* horizontal centering is done through bootstrap */
+  height: 200px; /* This is important! */
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
 .home-title {
   font-weight: bold;
 }
@@ -6,30 +20,16 @@
   font-weight: italic;
 }
 
-.home-center {height:100%; margin:0;padding:0}
- 
-.container-fluid{
-  height: 100%;
-  display: table;
-  width: 100%;
-  padding: 0;
-}
-         
-.row-fluid {height: 100%; display: table-cell; vertical-align: middle;}
-         
-
-.centering {
-  float: none;
-  margin: 0 auto;
-}
-
 .github-link {
   color: inherit;
 }
 
-.home-arrow {
-  position: absolute;
-  right: 10px;
-  color: #000; 
+.home-menu {
+  top: 20px;
+}
+
+.home-menu-item {
+  font-size: 25px;
+  border-bottom: 3px solid #222;
 }
 
