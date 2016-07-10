@@ -1,0 +1,13 @@
+{
+    "fonts.fontSize": "18px",
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "themes.theme": "dark-theme",
+    "useTabChar": false,
+    "spaceUnits": 2,
+    "language": {
+        "javascript": {
+            "linting.prefer": "JSHint",
+            "linting.usePreferredOnly": true
+        }
+    }
+}

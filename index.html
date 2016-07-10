@@ -1,11 +1,47 @@
----
-layout: home
-title: Jack Loughran's Personal Website
----
+<!DOCTYPE HTML>
+<html ng-app="homeApp">
 
-{% include menu-links.html %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jack Loughran's Personal Website</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Source+Code+Pro|Source+Sans+Pro" rel="stylesheet">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/my.css" rel="stylesheet">
+  <link href="/css/font-awesome.min.css" rel="stylesheet"> </head>
 
-<div class="home-text">
-  {% include home-text.html %}
-</div>
+<body ng-controller="HomeController">
+  <script src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.7/angular-route.min.js"></script>
+  <script src="/js/home.js"></script>
+  <div class="col-xs-6 col-xs-offset-3 text-center">
+    <div class="home-menu">
+      <ul class="list-inline">
+        <a href="/about/" class="home-menu-link menu-inactive">
+          <li class="home-menu-item">About</li>
+        </a>
+        <a href="/projects/" class="home-menu-link menu-inactive">
+          <li class="home-menu-item">Projects</li>
+        </a>
+        <a href="/contact/" class="home-menu-link menu-inactive">
+          <li class="home-menu-item">Contact</li>
+        </a>
+      </ul>
+    </div>
+  </div>
+  <div class="row"></div>
+<!--  <div class="home-text">-->
+    <div class="text-center">
+      <a href="/" class="home-link">
+        <h1 class="home-title">Jack Loughran</h1> </a>
+      <a href="https://github.com/jloughran" class="home-link"> <i class="fa fa-github fa-3x" aria-hidden="true"></i> </a>
+    </div>
+<!--  </div>-->
+  <div class="row"></div>
+  <div class="content">
+    {{ message }}
+  </div>
+</body>
 
+</html>

@@ -1,4 +1,0 @@
-# Limited info here because jekyll serve won't auto update _config.yml
-data_dir: ./data
-include: ['_pages']
-markdown: kramdown
