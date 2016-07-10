@@ -6,7 +6,7 @@
     .config(routeConfig)
     .controller('HomeController', SinglePageApp);
   
-  SinglePageApp.$inject = ['$scope'];
+  SinglePageApp.$inject = ['$scope', '$location'];
   
   function routeConfig($routeProvider) {
     $routeProvider
@@ -28,9 +28,19 @@
       });
   }
   
-  function SinglePageApp($scope) {
+  function SinglePageApp($scope, $location) {
     var vm = this;
     
-    $scope.message = 'Testing 123';
+    vm.path = $location.path();
+    
+    vm.menuPath = function (page) {
+      console.log('here');
+      if (vm.path === page) {
+        return 'menu-active';
+      }
+      else {
+        return 'menu-inactive';
+      }
+    };
   }
 })();
