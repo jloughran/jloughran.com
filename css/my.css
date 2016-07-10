@@ -2,14 +2,6 @@
   /* verticaly centers the div */
   /* horizontal centering is done through bootstrap */
   height: 200px; /* This is important! */
-
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  margin: auto;
 }
 
 .home-title {
@@ -38,8 +30,8 @@ a.home-menu-link {
   float: left;
   text-decoration: none;
   color: #222;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-left: 10px;
   margin-right: 10px;
   position: relative;

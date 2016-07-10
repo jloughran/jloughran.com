@@ -15,32 +15,32 @@
   <script src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
   <script src="https://code.angularjs.org/1.5.7/angular-route.min.js"></script>
   <script src="/js/home.js"></script>
-  <div class="col-xs-6 col-xs-offset-3 text-center">
-    <div class="home-menu">
-      <ul class="list-inline">
-        <a href="/about/" class="home-menu-link menu-inactive">
-          <li class="home-menu-item">About</li>
-        </a>
-        <a href="/projects/" class="home-menu-link menu-inactive">
-          <li class="home-menu-item">Projects</li>
-        </a>
-        <a href="/contact/" class="home-menu-link menu-inactive">
-          <li class="home-menu-item">Contact</li>
-        </a>
-      </ul>
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3 col-sm-12 text-center">
+      <div class="home-menu">
+        <ul class="list-inline">
+          <a href="#/about" class="home-menu-link menu-inactive">
+            <li class="home-menu-item">About</li>
+          </a>
+          <a href="#/projects" class="home-menu-link menu-inactive">
+            <li class="home-menu-item">Projects</li>
+          </a>
+          <a href="#/contact" class="home-menu-link menu-inactive">
+            <li class="home-menu-item">Contact</li>
+          </a>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div class="row"></div>
-<!--  <div class="home-text">-->
+    <div class="row"></div>
     <div class="text-center">
-      <a href="/" class="home-link">
+      <a href="/#/" class="home-link">
         <h1 class="home-title">Jack Loughran</h1> </a>
       <a href="https://github.com/jloughran" class="home-link"> <i class="fa fa-github fa-3x" aria-hidden="true"></i> </a>
     </div>
-<!--  </div>-->
-  <div class="row"></div>
-  <div class="content">
-    {{ message }}
+    <div class="row"></div>
+    <div class="content col-md-8 col-md-offset-2 col-md-12">
+      <div ng-view></div>
+    </div>
   </div>
 </body>
 
