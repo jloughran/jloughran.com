@@ -31,16 +31,19 @@
   function SinglePageApp($scope, $location) {
     var vm = this;
     
-    vm.path = $location.path();
-    
-    vm.menuPath = function (page) {
-      console.log('here');
-      if (vm.path === page) {
-        return 'menu-active';
+    vm.menuLinks = [
+      {
+        url: '#/about',
+        text: 'About'
+      },
+      {
+        url: '#/projects',
+        text: 'Projects'
+      },
+      {
+        url: '#/contact',
+        text: 'Contact'
       }
-      else {
-        return 'menu-inactive';
-      }
-    };
+    ];
   }
 })();

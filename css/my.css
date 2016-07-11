@@ -84,3 +84,7 @@ a.home-link:hover {
   transition: all 0.3s ease;
 }
 
+
+.menu-container {
+  display: inline;
+}
