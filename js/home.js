@@ -43,6 +43,7 @@ function SinglePageApp($scope, $location) {
     }
   ];
 
+  // todo: make this it's own function.  call if from ng-click in the a
   const path = '#' + $location.path();
   vm.menuLinks.forEach(function (link) {
     if (link.url === path) {
