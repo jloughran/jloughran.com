@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Source+Code+Pro|Source+Sans+Pro" rel="stylesheet">
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/my.css" rel="stylesheet">
-  <link href="/css/font-awesome.min.css" rel="stylesheet"> </head>
+  <link href="/css/font-awesome.min.css" rel="stylesheet"></head>
 
 <body ng-controller="HomeController as vm">
   <script src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
@@ -19,7 +19,7 @@
     <div class="col-md-6 col-md-offset-3 col-sm-12 text-center">
       <div class="home-menu">
         <div ng-repeat="link in vm.menuLinks" class="menu-container">
-          <a href="{{ link.url }}" class="home-menu-link menu-inactive">
+          <a href="{{ link.url }}" class="home-menu-link {{ link.style }}">
             <span class="home-menu-item">{{ link.text }}</span>
           </a>
         </div>
