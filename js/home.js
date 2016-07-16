@@ -43,14 +43,16 @@ function SinglePageApp($scope, $location) {
     }
   ];
 
-  // todo: make this it's own function.  call if from ng-click in the a
-  const path = '#' + $location.path();
-  vm.menuLinks.forEach(function (link) {
-    if (link.url === path) {
-      link.style = 'menu-active';
-    }
-    else {
-      link.style = 'menu-inactive';
-    }
-  });
+  function setActiveLink() {
+    const path = '#' + $location.path();
+    vm.menuLinks.forEach(function (link) {
+      if (link.url === path) {
+        link.style = 'menu-active';
+      } else {
+        link.style = 'menu-inactive';
+      }
+    });
+  }
+
+  setActiveLink();
 }

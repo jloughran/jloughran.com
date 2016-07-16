@@ -12,6 +12,7 @@
   <link href="/css/font-awesome.min.css" rel="stylesheet"></head>
 
 <body ng-controller="HomeController as vm">
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script src="https://code.angularjs.org/1.5.7/angular.min.js"></script>
   <script src="https://code.angularjs.org/1.5.7/angular-route.min.js"></script>
   <script src="/js/home.js"></script>
@@ -19,7 +20,7 @@
     <div class="col-md-6 col-md-offset-3 col-sm-12 text-center">
       <div class="home-menu">
         <div ng-repeat="link in vm.menuLinks" class="menu-container">
-          <a href="{{ link.url }}" class="home-menu-link {{ link.style }}" ng-click="">
+          <a href="{{ link.url }}" class="home-menu-link {{ link.style }}">
             <span class="home-menu-item">{{ link.text }}</span>
           </a>
         </div>
