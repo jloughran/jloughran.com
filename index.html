@@ -19,9 +19,15 @@
   <div class="container">
     <div class="col-md-6 col-md-offset-3 col-sm-12 text-center">
       <div class="home-menu">
-        <div ng-repeat="link in vm.menuLinks" class="menu-container">
-          <a href="{{ link.url }}" class="home-menu-link {{ link.style }}">
-            <span class="home-menu-item">{{ link.text }}</span>
+        <div class="menu-container">
+          <a href="#/about" ng-class="{ menuactive: vm.isActive('#/about'), menuinactive: vm.isNotActive('#/about') }" class="home-menu-link">
+            <span class="home-menu-item">About</span>
+          </a>
+          <a href="#/projects"  ng-class="{ menuactive: vm.isActive('#/projects'), menuinactive: vm.isNotActive('#/projects') }" class="home-menu-link">
+            <span class="home-menu-item">Projects</span>
+          </a>
+          <a href="#/contact"  ng-class="{ menuactive: vm.isActive('#/contact'), menuinactive: vm.isNotActive('#/contact') }" class="home-menu-link">
+            <span class="home-menu-item">Contact</span>
           </a>
         </div>
       </div>

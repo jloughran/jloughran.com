@@ -37,7 +37,7 @@ a.home-menu-link {
   position: relative;
 }
 
-a.menu-inactive:before {
+a.menuinactive:before {
 	content: "";
   position: absolute;
   width: 100%;
@@ -52,7 +52,7 @@ a.menu-inactive:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a.menu-inactive:hover:before {
+a.menuinactive:hover:before {
 	visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -63,7 +63,7 @@ a.home-menu-link:hover {
   transition: all 0.3s ease;
 }
 
-a.menu-active {
+a.menuactive {
   color: #2C327F;
   border-bottom: 4px solid #2C327F;
 }

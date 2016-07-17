@@ -3,7 +3,7 @@ angular
   .config(routeConfig)
   .controller('HomeController', SinglePageApp);
 
-SinglePageApp.$inject = ['$scope', '$location'];
+SinglePageApp.$inject = ['$location'];
 
 function routeConfig($routeProvider) {
   $routeProvider
@@ -25,7 +25,7 @@ function routeConfig($routeProvider) {
     });
 }
 
-function SinglePageApp($scope, $location) {
+function SinglePageApp($location) {
   var vm = this;
 
   vm.menuLinks = [
@@ -43,16 +43,11 @@ function SinglePageApp($scope, $location) {
     }
   ];
 
-  function setActiveLink() {
-    const path = '#' + $location.path();
-    vm.menuLinks.forEach(function (link) {
-      if (link.url === path) {
-        link.style = 'menu-active';
-      } else {
-        link.style = 'menu-inactive';
-      }
-    });
+  function isActive(link) {
+    return link === $location.path();
   }
 
-  setActiveLink();
+  function isNotActive(link) {
+    return link !== $location.path();
+  }
 }
