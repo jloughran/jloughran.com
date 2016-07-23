@@ -6,3 +6,4 @@
 - add content
 - fix mobile link formatting issues
 - add color
+- set up email
