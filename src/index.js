@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Router, IndexRoute, hashHistory } from 'react-router';
 
+import './index.css';
+
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
