@@ -6,5 +6,5 @@
 - add content
 - fix mobile link formatting issues
 - add color
-- set up email
+- ~~set up email~~
 - active links in react
