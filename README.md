@@ -7,3 +7,4 @@
 - fix mobile link formatting issues
 - add color
 - set up email
+- active links in react
