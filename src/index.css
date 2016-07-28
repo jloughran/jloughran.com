@@ -85,3 +85,7 @@ a.home-link:hover {
   color: #2C327F;
   transition: all 0.3s ease;
 }
+
+.row {
+  max-width: 50rem;
+}

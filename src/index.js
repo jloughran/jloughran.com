@@ -6,7 +6,6 @@ import './index.css';
 
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Home from './pages/Home';
 import Layout from './layout/Layout';
 import NotFound from './pages/NotFound';
 import Projects from './pages/Projects';
@@ -14,7 +13,7 @@ import Projects from './pages/Projects';
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path='/' component={Layout}>
-      <IndexRoute component={Home} />
+      <IndexRoute component={About} />
       <Route path='/about' component={About} />
       <Route path='/contact' component={Contact} />
       <Route path='/projects' component={Projects} />
