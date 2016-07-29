@@ -9,3 +9,4 @@
 - ~~set up email~~
 - active links in react
 - change ico
+- add a text-shadow to my name

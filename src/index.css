@@ -4,6 +4,15 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+  color: #2C327F;
+}
+
+a:hover {
+  color: #2C327F;
+  text-decoration: underline;
+}
+
 .home-title {
   font-weight: bold;
   font-family: 'Noto Serif', serif;
