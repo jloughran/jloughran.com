@@ -3,9 +3,9 @@
 
 ### TODO List: *(in no order)*
 - add meta descriptions and such
-- add content
+- ~~add content~~
 - ~~fix mobile link formatting issues~~
 - ~~set up email~~
 - ~~active links in react~~
 - change ico
-- add a text-shadow to my name
+- ~~add a text-shadow to my name~~
