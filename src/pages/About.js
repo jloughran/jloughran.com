@@ -4,7 +4,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="about-content">
-        <h3>Hi, I'm Jack Loughran.</h3>
+        <h3>Hey, I'm Jack Loughran.</h3>
         <p>
           I'm a Senior pursuing degrees in <i>Computer Science and Business</i> and <i>
           Accounting</i> at <a href="http://www.lehigh.edu">Lehigh University</a> in

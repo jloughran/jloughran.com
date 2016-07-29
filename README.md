@@ -5,8 +5,7 @@
 - add meta descriptions and such
 - add content
 - ~~fix mobile link formatting issues~~
-- add color
 - ~~set up email~~
-- active links in react
+- ~~active links in react~~
 - change ico
 - add a text-shadow to my name
