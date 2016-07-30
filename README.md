@@ -7,5 +7,5 @@
 - ~~fix mobile link formatting issues~~
 - ~~set up email~~
 - ~~active links in react~~
-- change ico
+- ~~change favicon~~
 - ~~add a text-shadow to my name~~
