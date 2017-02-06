@@ -1,0 +1,41 @@
+/* https://coolors.co/fff2e2-fff4b7--e04c23-99c0e8 */
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+  background: #fff2e2;
+}
+
+.center-div
+{
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 60%;
+     height: 100.5px;
+     max-width: 900px;
+     min-width: 300px;
+}
+
+h1.jackloughran {
+  font-family: 'Droid Serif', serif;
+   margin: auto;
+   width: 100%;
+   text-align: center;
+   font-size: 300%;
+   color: #e04c23;
+}
+
+h3.subtext {
+  text-align: center;
+  font-size: 130%;
+  margin: 20px 0 0 0;
+  color: #cc9a6c;
+}
+
+a.title-link, a.title-link:visited, a.title-link:active {
+  color: inherit;
+  text-decoration: inherit;
+}
