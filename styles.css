@@ -1,8 +1,16 @@
-/* https://coolors.co/fff2e2-fff4b7--e04c23-99c0e8 */
+/* https://coolors.co/fff2e2-fff4b7-cc9a6c-e04c23-99c0e8 */
 
 body {
   font-family: 'Droid Sans', sans-serif;
   background: #fff2e2;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .center-div
@@ -15,7 +23,6 @@ body {
      left: 0;
      width: 60%;
      height: 100.5px;
-     max-width: 900px;
      min-width: 300px;
 }
 
@@ -35,7 +42,83 @@ h3.subtext {
   color: #cc9a6c;
 }
 
-a.title-link, a.title-link:visited, a.title-link:active {
+a.nodec, a.nodec:visited, a.nodec:active {
   color: inherit;
   text-decoration: inherit;
+}
+
+h5.bottom-menu {
+  position: relative;
+  bottom: 60px;
+  color: #cc9a6c;
+  font-size: 100%;
+  margin-bottom: 20px;
+}
+
+h5.bottom-left {
+  float: left;
+}
+
+h5.bottom-center {
+  width: 48px;
+  margin: auto;
+}
+
+h5.bottom-right {
+  float: right;
+}
+
+i.arrow {
+  font-size: 125%;
+}
+
+.noselect {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+h2.subtitle {
+  color: #e04c23;
+  width: 100%;
+  text-align: center;
+  font-size: 250%;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+hr.divider {
+  float: left;
+  display: inline-block;
+  border: 0;
+  height: 1px;
+  background: #e04c23;
+  margin: 0 0 50px 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* pages */
+.title-page {
+  height: 100vh;
+  text-align: center;
+}
+
+.title-page:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.page {
+  display: inline-block;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
 }
