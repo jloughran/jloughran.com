@@ -1,16 +1,23 @@
-/* https://coolors.co/fff2e2-fff4b7-cc9a6c-e04c23-99c0e8 */
+/* https://coolors.co/fff2e2-fff4b7-cc9a6c-e04c23-64a2e2 */
 
 body {
   font-family: 'Droid Sans', sans-serif;
   background: #fff2e2;
-  padding: 0;
-  margin: 0;
 }
 
 .container {
   width: 100%;
   max-width: 1200px;
   margin: auto;
+}
+
+a {
+  color: #64a2e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .center-div
@@ -85,9 +92,9 @@ h2.subtitle {
   color: #e04c23;
   width: 100%;
   text-align: center;
-  font-size: 250%;
+  font-size: 235%;
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 10px 0 100px 0;
 }
 
 hr.divider {
@@ -99,6 +106,20 @@ hr.divider {
   margin: 0 0 50px 0;
   padding: 0;
   width: 100%;
+}
+
+/* projects */
+img.project-image {
+  width: 100%;
+}
+
+h3.project-title {
+  color: #64a2e2;
+  width: 100%;
+  text-align: center;
+  font-size: 175%;
+  padding: 0;
+  margin: 10px 0 10px 0;
 }
 
 /* pages */
